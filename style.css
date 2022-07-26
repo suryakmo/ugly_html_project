@@ -1,5 +1,6 @@
 html {
-    background-color: rgb(0, 0, 0);
+    /* background-color: rgb(0, 5, 8); */
+    background-image: linear-gradient( rgb(151, 194, 154), rgb(228, 151, 88), rgb(115, 170, 216));
 }
 
 * {
@@ -8,29 +9,35 @@ html {
 
 .introduction h1 {
     text-align: center;
-    color: rgb(235, 193, 8);
-    background-color: rgb(36, 61, 133);
-    border-color: rgb(50, 83, 173);
+    color: #ffbb00d3;
+    background-color: #0e3568;
+    border: solid;
+    border-radius: 12px;
+    border-color: #ffbb00d3;
+    font-size: x-large;
+    font-size: 250%;
 }
 
 .introduction h2 {
     color: rgb(255, 255, 255);
-    font-size: medium;
+    font-size: large;
 }
 
 .list {
     color: white;
-    font-size: small;
+    font-size: medium;
 }
 
 #starters_image_div {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 44%;
+    width: 28%;
+    background-color: rgb(255, 255, 255);
     border: solid;
-    padding: 2px 4px 0px 4px;
-    border-color: rgb(54, 92, 197);
+    border-width: 10px;
+    border-radius: 15px;
+    padding: 3px 3px 0px 3px;
+    margin-left: 35%;
+    border: solid;
+    border-color: rgb(0, 0, 0);
 }
 
 .pokemon_images {
